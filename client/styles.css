@@ -1,3 +1,61 @@
-/* body {
-  background-color: aqua;
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* background-color: rgb(120, 241, 120); */
+  /* background-image: url(../images/Ocean.png); */
+}
+
+
+
+/* #app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 } */
+
+#nav-container{
+  display: flex;
+  justify-content: center;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 85vw;
+  height: 50px;
+}
+
+#background {
+  background-color: chocolate;
+}
+
+#p-container {
+  width: 100px;
+  /* background-color: darkcyan; */
+  text-align: center;
+}
+
+#ocean-container {
+  position: relative;
+  text-align: center;
+}
+
+#ocean-text {
+  background-color: brown;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 70%;
+  display: flex;
+
+}
+
+
