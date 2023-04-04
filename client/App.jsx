@@ -1,9 +1,12 @@
 import React from "react";
+import Background from "./components/Background";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div id="app">
-      <p>This text is from React</p>
+      {/* <Navbar></Navbar> */}
+      <Background></Background>
     </div>
   );
 };
