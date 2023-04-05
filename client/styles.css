@@ -82,13 +82,56 @@ body {
 }
 
 #black-section {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 100px;
+  color: white;
 }
 
 #black-section > h1 {
-  position: relative;
-  top: 60px;
-  color: white;
+  margin: 0px 10vw;
+  font-size: 5vh;
+}
+
+#black-section > p {
+  margin: 10vh 10vw;
+  font-size: 3vh;
+}
+
+#icon-row {
+  background-color: darkslategrey;
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#icon-row > p {
+  font-size: 3vh;
+  width: 20%;
+  text-align: left;
+} 
+  
+#icon-row > img {
+  width: 20%;
+  object-fit: contain;
+}
+
+#icon-row > div {
+  width: 20%;
+}
+
+#avatar-row {
+  background-color: darkslateblue;
+  width: 90%;
+  height: 250px;
+}
+
+#fire {
+  object-fit: contain;
+  height: 50vh;
 }
 
 #rainforest-text {
