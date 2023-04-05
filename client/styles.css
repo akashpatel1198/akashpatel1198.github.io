@@ -8,8 +8,6 @@ body {
   /* background-image: url(../images/Ocean.png); */
 }
 
-
-
 /* #app {
   display: flex;
   flex-direction: column;
@@ -26,11 +24,13 @@ body {
   justify-content: space-between;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-bottom: solid;
-  border-color: black;
-  border-width: 1px;
   width: 85vw;
   height: 50px;
+}
+
+#connect-btn {
+  font-size: 24px;
+  border-radius: 25px;
 }
 
 #background {
@@ -43,19 +43,42 @@ body {
   text-align: center;
 }
 
+#logo-main > h1 {
+  font-size: 50px;
+}
+
 #ocean-container {
   position: relative;
   text-align: center;
 }
 
-#ocean-text {
-  background-color: brown;
-  width: 400px;
-  height: 400px;
+#ocean-title {
+  /* background-color: brown; */
+  width: 100%;
+  height: auto;
   position: absolute;
-  top: 70%;
+  top: 55%;
   display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+  color: white;
+}
 
+#ocean-text {
+  /* background-color: brown; */
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 65%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+  color: white;
+}
+
+#ocean-text > h4 {
+  /* background-color: aqua; */
+  width: 30vw;
 }
 
 
