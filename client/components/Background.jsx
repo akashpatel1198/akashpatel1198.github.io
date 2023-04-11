@@ -4,6 +4,13 @@ import LogoMain from "../../images/Logo_Main.png"
 import LogoShield from "../../images/Logo_Shield.png"
 import Rope from "../../images/Rope_Crop.png"
 import Rainforest from "../../images/Rainforest.png"
+import Fire from "../../images/Fire_Icon.png"
+import Ice from "../../images/Ice_Icon.png"
+import Water from "../../images/Water_Icon.png"
+import Leaf from "../../images/Leaf_Icon.png"
+import IceAv from "../../images/Ice_Av.png"
+import WaterAv from "../../images/Water_Av.png"
+import LeafAv from "../../images/Leaf_Av.png"
 import Navbar from "./Navbar";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
@@ -19,9 +26,9 @@ const Background = () => {
           <Navbar></Navbar>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={0} speed={-.6}
+      <ParallaxLayer offset={.07} speed={-.6}
       style={{}}>
-        <img src={LogoShield} style={{width: '10%'}}></img>
+        <img src={LogoShield} style={{width: '4%'}}></img>
       </ParallaxLayer>
 
       <ParallaxLayer offset={.1} speed={-.4} 
@@ -32,7 +39,7 @@ const Background = () => {
         <p>*Unaffiliated with Nelk*</p>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={.7} speed={0} factor={2}
+      <ParallaxLayer offset={.9} speed={0} factor={2}
       style={{backgroundImage: `url(${Ocean})`, backgroundSize: '100% 100%', overflow: 'hidden'}}
       id='ocean-container'>
         {/* <img src={Ocean} style={{width: '2000px'}}></img> */}
@@ -66,28 +73,48 @@ const Background = () => {
         </div>
       </ParallaxLayer>
 
-      <ParallaxLayer sticky={{start: 2.7, end:3.7}} speed={0} 
+      <ParallaxLayer offset={2.9} speed={0} factor={2}
       style={{backgroundColor: 'black'}}
       id='black-section'>
-        <h1>h1 test</h1>
+        <h1>Phase 1: Send Elements</h1>
+        <p>Send Elements is a collection of 10k unique Elementalist Avatars on the Ethereum Blockchain</p>
+        <div id='icon-row'>
+          <p>Each individual element hosts a rare unique resource that fills the consumer with immense power and breathtaking euphoria, leading them into a state of Full Send</p>
+          <img src={Leaf}></img>
+          <img src={Water}></img>
+          <img src={Ice}></img>
+          <div></div>
+        </div>
+        <div id='avatar-row'>
+          <div></div>
+          <img src={LeafAv}></img>
+          <img src={WaterAv}></img>
+          <img src={IceAv}></img>
+          <p>Genesis Avatars will also act as an access point into the Send Collective Community Look out for any traits that relate to your favorite full send moments</p>
+        </div>
+        <p>The 3 Genesis Elements are currently at in a war of control over their previous resources against the attacking Fire Element</p>
+        <img id='fire' src={Fire}>
+
+        </img>
+        <p>Why are the most beautiful things always the most destructive...</p>
       </ParallaxLayer>
       
-      <ParallaxLayer sticky={{start: 2.7, end:4.7}} speed={0} factor={2}
+      <ParallaxLayer sticky={{start: 2.9, end:4.9}} speed={0} factor={2}
       style={{}}>
         <img src={Rope} style={{width: '100vw', top: '-15px', position: 'relative'}}></img>
       </ParallaxLayer>
 
-      <ParallaxLayer sticky={{start: 4.7, end:4.7}} speed={0} 
+      <ParallaxLayer sticky={{start: 4.9, end:4.9}} speed={0} 
       style={{}}>
         <img src={Rope} style={{width: '100vw', top: '-15px', position: 'relative'}}></img>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={4.7} speed={0} factor={1.3} 
+      <ParallaxLayer offset={4.9} speed={0} factor={1.3} 
       style={{backgroundImage: `url(${Rainforest})`, backgroundSize: '100% 100%', overflow: 'hidden'}}
       id='rainforest'>
       </ParallaxLayer>
 
-      <ParallaxLayer offset={4.7} speed={.4} 
+      <ParallaxLayer offset={4.9} speed={.4} 
       style={{}}
       id='rainforest-text'>
         <div id='rf-inner'>

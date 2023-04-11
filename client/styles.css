@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+/* font-family: 'Bebas Neue';
+font-family: 'Fondamento'; */
+
 body {
   margin: 0;
   /* background-color: rgb(120, 241, 120); */
@@ -29,6 +32,8 @@ body {
 }
 
 #connect-btn {
+  font-family: 'Bebas Neue';
+  font-style: italic;
   font-size: 24px;
   border-radius: 25px;
 }
@@ -44,6 +49,8 @@ body {
 }
 
 #logo-main > h1 {
+  font-family: 'Bebas Neue';
+  font-style: italic;
   font-size: 50px;
 }
 
@@ -54,6 +61,8 @@ body {
 
 #ocean-title {
   /* background-color: brown; */
+  font-family: 'Bebas Neue';
+  font-style: italic;
   width: 100%;
   height: auto;
   position: absolute;
@@ -66,6 +75,8 @@ body {
 
 #ocean-text {
   /* background-color: brown; */
+  font-family: 'Bebas Neue';
+  font-style: italic;
   width: 100%;
   height: auto;
   position: absolute;
@@ -82,16 +93,82 @@ body {
 }
 
 #black-section {
-  text-align: center;
-}
-
-#black-section > h1 {
-  position: relative;
-  top: 60px;
+  font-family: 'Fondamento';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 100px;
   color: white;
 }
 
+#black-section > h1 {
+  margin: 0px 10vw;
+  font-size: 4vh;
+}
+
+#black-section > p {
+  margin: 5vh 10vw;
+  font-size: 2.5vh;
+}
+
+#icon-row {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#icon-row > p {
+  vertical-align: middle;
+  font-size: 2.5vh;
+  width: 20%;
+  text-align: left;
+  padding-top: 4%;
+} 
+  
+#icon-row > img {
+  width: 20%;
+  object-fit: contain;
+}
+
+#icon-row > div {
+  width: 20%;
+}
+
+#avatar-row {
+  background-color: darkslateblue;
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#avatar-row > p {
+  vertical-align: middle;
+  font-size: 2.5vh;
+  width: 15%;
+  text-align: right;
+  padding-top: 6%;
+} 
+  
+#avatar-row > img {
+  width: 23%;
+  object-fit: contain;
+}
+
+#avatar-row > div {
+  width: 15%;
+}
+
+#fire {
+  object-fit: contain;
+  height: 50vh;
+}
+
 #rainforest-text {
+  font-family: 'Bebas Neue';
+  font-style: italic;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
