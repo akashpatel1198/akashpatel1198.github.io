@@ -1,4 +1,5 @@
-import React, { useRef } from "react";
+import React, { useEffect, useState } from "react";
+import { useInView, animated } from '@react-spring/web';
 import Ocean from "../../images/Ocean.png"
 import LogoMain from "../../images/Logo_Main.png"
 import LogoShield from "../../images/Logo_Shield.png"
@@ -12,14 +13,14 @@ import IceAv from "../../images/Ice_Av.png"
 import WaterAv from "../../images/Water_Av.png"
 import LeafAv from "../../images/Leaf_Av.png"
 import Navbar from "./Navbar";
+import AvatarRow from "./AvatarRow";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 // sticky={{start: 0, end: 3}
 const Background = () => {
-  const mainRef = useRef();
 
   return (
-    <Parallax id="p-container" pages={7.3} ref={mainRef}>
+    <Parallax id="p-container" pages={7.3}>
       <ParallaxLayer offset={0} speed={1} sticky={{start: 0, end: 1.4}}
       style={{height: '60px', overflow: 'hidden'}}
       id='nav-container'>
@@ -85,13 +86,14 @@ const Background = () => {
           <img src={Ice}></img>
           <div></div>
         </div>
-        <div id='avatar-row'>
+        {/* <div id='avatar-row'>
           <div></div>
-          <img src={LeafAv}></img>
-          <img src={WaterAv}></img>
-          <img src={IceAv}></img>
+          <animated.img id='avatar-leaf' src={LeafAv} ></animated.img>
+          <animated.img id='avatar-water' src={WaterAv} ref={ref}></animated.img>
+          <animated.img id='avatar-ice' src={IceAv} ></animated.img>
           <p>Genesis Avatars will also act as an access point into the Send Collective Community Look out for any traits that relate to your favorite full send moments</p>
-        </div>
+        </div> */}
+        <AvatarRow></AvatarRow>
         <p>The 3 Genesis Elements are currently at in a war of control over their previous resources against the attacking Fire Element</p>
         <img id='fire' src={Fire}>
 
