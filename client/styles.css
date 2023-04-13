@@ -51,7 +51,7 @@ body {
 #logo-main > h1 {
   font-family: 'Bebas Neue';
   font-style: italic;
-  font-size: 50px;
+  font-size: 300%;
 }
 
 #ocean-container {
@@ -69,7 +69,7 @@ body {
   top: 55%;
   display: flex;
   justify-content: space-around;
-  font-size: 50px;
+  font-size: 3.5vw;
   color: white;
 }
 
@@ -83,7 +83,7 @@ body {
   top: 65%;
   display: flex;
   justify-content: space-around;
-  font-size: 40px;
+  font-size: 2.2vw;
   color: white;
 }
 
@@ -217,4 +217,70 @@ body {
   font-weight: 500;
 }
 
+#bottom-black {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
+#phase-2 {
+  /* background-color: rgba(255, 244, 87, 0.5); */
+  height: 50%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#phase-2 > h1 {
+  /* background-color: aqua; */
+  width: 40%;
+  margin: auto;
+}
+
+#phase-2 > div {
+  /* background-color: darkgreen; */
+  width: 50%;
+  margin: auto;
+  font-size: larger;
+}
+
+#faq {
+  height: 50%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#faq > h1{
+  width: 40%;
+}
+
+#faq > div{
+  color: red;
+  background-color: aqua;
+  width: 50%;
+  margin: auto;
+  font-size: larger;
+}
+
+#bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+#links {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 3%;
+}
+
+#links > h4 {
+  margin-right: 3%;
+  font-size: larger;
+}
+
+#bottom > h1 {
+  margin: auto;
+  margin-left: 3%;
+  font-size: 60px;
+}
