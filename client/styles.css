@@ -143,7 +143,7 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
-  height: 25%;
+  height: 40vh;
   overflow: hidden;
 }
 
@@ -154,14 +154,19 @@ body {
   text-align: right;
 } 
 
+#avatar-row > img {
+  width: 23%;
+  object-fit: contain;
+}
+
 #avatar-leaf {
   position: absolute;
-  margin-left: 15%;
+  margin-left: 18%;
 }
 
 #avatar-water {
   position: absolute;
-  margin-left: 33%;
+  margin-left: 36%;
   z-index: 1;
   width: 27% !important;
   top: -10%;
@@ -169,16 +174,7 @@ body {
 
 #avatar-ice {
   position: absolute;
-  margin-left: 55%;
-}
-  
-#avatar-row > img {
-  width: 23%;
-  object-fit: contain;
-}
-
-#avatar-row > div {
-  width: 15%;
+  margin-left: 58%;
 }
 
 #fire {
@@ -186,13 +182,12 @@ body {
   height: 50vh;
 }
 
-#rainforest-text {
+#rainforest {
   font-family: 'Bebas Neue';
   font-style: italic;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: center;
 }
 
 #rf-inner {
@@ -213,7 +208,7 @@ body {
 #rf-inner > #text{
   background-color: rgba(56, 56, 56, 0.5);
   width: 50%;
-  font-size: 30px;
+  font-size: 2vw;
   font-weight: 500;
 }
 
