@@ -148,6 +148,7 @@ body {
 }
 
 #avatar-row > p {
+  margin: auto 0px;
   vertical-align: middle;
   font-size: 2.5vh;
   width: 15%;
@@ -251,11 +252,58 @@ body {
 }
 
 #faq > div{
-  color: red;
-  background-color: aqua;
+  /* background-color: aqua; */
+  color: white;
   width: 50%;
-  margin: auto;
   font-size: larger;
+}
+
+#dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#dropdown > p {
+  /* background-color: chartreuse; */
+  margin: .2vh 3vw;
+  text-align: left;
+}
+
+.droprow {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-start;
+  max-width: fit-content;
+}
+
+.droprow:hover {
+  cursor: pointer;
+}
+
+.arrow-icon {
+  /* background-color: brown; */
+  margin: auto 2px;
+}
+
+.droprow > h3 {
+  /* background-color: darkgreen; */
+  margin: .2vh 0px;
+  text-align: left;
+}
+
+.droptext-enter, .droptext-exit {
+  transition: all 500ms ease;
+}
+.droptext-enter, .droptext-exit.droptext-exit-active {
+  opacity: 0;
+  overflow: hidden;
+  max-height: 0;
+}
+.droptext-exit, .droptext-enter.droptext-enter-active {
+  opacity: 1;
+  overflow: hidden;
+  max-height: 40px; /* looks good there, but I don't always know the height */
 }
 
 #bottom {

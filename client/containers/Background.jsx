@@ -18,6 +18,7 @@ const Background = () => {
 
   return (
     <Parallax id="p-container" pages={7.5}>
+      
       <ParallaxLayer offset={0} speed={1} sticky={{start: 0, end: 1.4}}
       style={{height: '60px', overflow: 'hidden'}}
       id='nav-container'>
