@@ -143,25 +143,31 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
-  height: 25%;
+  height: 40vh;
   overflow: hidden;
 }
 
 #avatar-row > p {
+  margin: auto 0px;
   vertical-align: middle;
   font-size: 2.5vh;
   width: 15%;
   text-align: right;
 } 
 
+#avatar-row > img {
+  width: 23%;
+  object-fit: contain;
+}
+
 #avatar-leaf {
   position: absolute;
-  margin-left: 15%;
+  margin-left: 18%;
 }
 
 #avatar-water {
   position: absolute;
-  margin-left: 33%;
+  margin-left: 36%;
   z-index: 1;
   width: 27% !important;
   top: -10%;
@@ -169,16 +175,7 @@ body {
 
 #avatar-ice {
   position: absolute;
-  margin-left: 55%;
-}
-  
-#avatar-row > img {
-  width: 23%;
-  object-fit: contain;
-}
-
-#avatar-row > div {
-  width: 15%;
+  margin-left: 58%;
 }
 
 #fire {
@@ -186,13 +183,12 @@ body {
   height: 50vh;
 }
 
-#rainforest-text {
+#rainforest {
   font-family: 'Bebas Neue';
   font-style: italic;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: center;
 }
 
 #rf-inner {
@@ -213,7 +209,7 @@ body {
 #rf-inner > #text{
   background-color: rgba(56, 56, 56, 0.5);
   width: 50%;
-  font-size: 30px;
+  font-size: 2vw;
   font-weight: 500;
 }
 
@@ -256,11 +252,58 @@ body {
 }
 
 #faq > div{
-  color: red;
-  background-color: aqua;
+  /* background-color: aqua; */
+  color: white;
   width: 50%;
-  margin: auto;
   font-size: larger;
+}
+
+#dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#dropdown > p {
+  /* background-color: chartreuse; */
+  margin: .2vh 3vw;
+  text-align: left;
+}
+
+.droprow {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-start;
+  max-width: fit-content;
+}
+
+.droprow:hover {
+  cursor: pointer;
+}
+
+.arrow-icon {
+  /* background-color: brown; */
+  margin: auto 2px;
+}
+
+.droprow > h3 {
+  /* background-color: darkgreen; */
+  margin: .2vh 0px;
+  text-align: left;
+}
+
+.droptext-enter, .droptext-exit {
+  transition: all 500ms ease;
+}
+.droptext-enter, .droptext-exit.droptext-exit-active {
+  opacity: 0;
+  overflow: hidden;
+  max-height: 0;
+}
+.droptext-exit, .droptext-enter.droptext-enter-active {
+  opacity: 1;
+  overflow: hidden;
+  max-height: 40px; /* looks good there, but I don't always know the height */
 }
 
 #bottom {
