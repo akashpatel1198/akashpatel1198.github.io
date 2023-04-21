@@ -1,18 +1,18 @@
 import React from "react";
 import { useNavContext } from "../contexts/NavContext";
 
-const Navbar = () => {
+const GalleryNav = () => {
   const setNavState = useNavContext().setNavState;
   const changePage = () => {
-    setNavState('Gallery')
+    setNavState('Home')
   }
 
   return (
     <div id="navbar">
-      <button id='gallery-btn' onClick={changePage}>Gallery</button>
-      <button id='connect-btn'>Connect Wallet</button>
+      <button id='home-btn' onClick={changePage}>Home</button>
+      <div></div>
     </div>
   );
 };
 
-export default Navbar;
+export default GalleryNav;

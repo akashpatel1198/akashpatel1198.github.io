@@ -31,12 +31,13 @@ body {
   height: 50px;
 }
 
-#connect-btn {
+#navbar > button {
   font-family: 'Bebas Neue';
   font-style: italic;
   font-size: 24px;
   border-radius: 25px;
 }
+
 
 #background {
   background-color: chocolate;
@@ -326,4 +327,12 @@ body {
   margin: auto;
   margin-left: 3%;
   font-size: 60px;
+}
+
+/* Gallery Page */
+#Gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

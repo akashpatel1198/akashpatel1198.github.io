@@ -1,11 +1,13 @@
 import React from "react";
-import Background from "./containers/Background";
+import MainContainer from "./containers/MainContainer";
+import { NavContextProvider} from "./contexts/NavContext";
 
 const App = () => {
+
   return (
-    <div id="app">
-      <Background></Background>
-    </div>
+    <NavContextProvider>
+      <MainContainer></MainContainer>
+    </NavContextProvider>
   );
 };
 
