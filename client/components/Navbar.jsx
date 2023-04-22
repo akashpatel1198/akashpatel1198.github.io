@@ -1,15 +1,13 @@
 import React from "react";
-import { useNavContext } from "../contexts/NavContext";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const setNavState = useNavContext().setNavState;
-  const changePage = () => {
-    setNavState('Gallery')
-  }
-
   return (
     <div id="navbar">
-      <button id='gallery-btn' onClick={changePage}>Gallery</button>
+      <Link to='/Gallery'>
+        <button id='gallery-btn'>Gallery</button>
+      </Link>
+
       <button id='connect-btn'>Connect Wallet</button>
     </div>
   );
