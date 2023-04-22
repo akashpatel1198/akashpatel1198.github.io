@@ -1,13 +1,13 @@
 import React from "react";
 import MainContainer from "./containers/MainContainer";
-import { NavContextProvider} from "./contexts/NavContext";
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
 
   return (
-    <NavContextProvider>
+    <BrowserRouter>
       <MainContainer></MainContainer>
-    </NavContextProvider>
+    </BrowserRouter>
   );
 };
 
