@@ -304,7 +304,7 @@ body {
 .droptext-exit, .droptext-enter.droptext-enter-active {
   opacity: 1;
   overflow: hidden;
-  max-height: 40px; /* looks good there, but I don't always know the height */
+  max-height: 50px; /* looks good there, but I don't always know the height */
 }
 
 #bottom {
@@ -329,10 +329,162 @@ body {
   font-size: 60px;
 }
 
+
 /* Gallery Page */
-#Gallery {
+
+
+#gallery-container {
+  /* background-color: darkorange; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+#gallery-top {
+  background-color: darkgoldenrod;
+}
+
+#gallery-main {
+ background-color: darkkhaki;
+ width: 100%;
+ height: auto;
+ display: flex;
+ justify-content: space-between;
+}
+
+#traits {
+  background-color: cornflowerblue;
+  width: 20%;
+  height: 100%;
+  /* min-height: 100px; */
+  margin: 2% 4%;
+  display: flex;
+  flex-direction: column;
+}
+
+#traits > h1 {
+  margin: 3px auto;
+}
+
+.single-trait {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.trait-title {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: flex-start;
+  max-width: fit-content;
+}
+
+.trait-title:hover {
+  cursor: pointer;
+}
+
+.arrow-icon {
+  /* background-color: brown; */
+  margin: auto 2px;
+}
+
+.trait-title > h3 {
+  /* background-color: darkgreen; */
+  margin: 5px 0px;
+  text-align: left;
+  font-size: medium;
+}
+
+.names-container {
+  background-color: blanchedalmond;
+  text-align: left;
+  height: 150px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.value {
+  background-color: brown;
+  margin: 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.traitvalues-enter, .traitvalues-exit {
+  transition: all 500ms ease;
+}
+.traitvalues-enter, .traitvalues-exit.traitvalues-exit-active {
+  opacity: 0;
+  overflow-y: scroll;
+  max-height: 0 !important;
+}
+.traitvalues-exit, .traitvalues-enter.traitvalues-enter-active {
+  opacity: 1;
+  overflow-y: scroll;
+  max-height: 160px !important; /* looks good there, but I don't always know the height */
+}
+
+#boxes-container {
+  background-color: rgb(151, 255, 103);
+  width: 68%;
+  height: auto;
+  margin: 2% 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+#boxes-container > h1 {
+  margin: 3px auto;
+}
+
+#current-filters {
+  background-color: rgb(255, 113, 113);
+  width: 94%;
+  min-height: 50px;
+  height: auto;
+  margin: 1% 3%;
+}
+
+#boxes-main {
+  background-color: rgb(255, 101, 255);
+  width: 94%;
+  min-height: 50px;
+  height: auto;
+  margin: 1% 3%;
+  padding: 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  column-gap: 18px;
+  row-gap: 20px;
+  justify-content: space-evenly;
+}
+
+.box {
+  background-color: beige;
+  height: 120px;
+  width: 100px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.box-img {
+  width: 100px;
+  height: 100px;
+}
+
+.box-id {
+  background-color: rgb(159, 159, 159);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  border-top: solid;
+  border-width: 1px;
 }
