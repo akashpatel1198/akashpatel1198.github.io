@@ -4,6 +4,7 @@ import BoxesMain from "./BoxesMain";
 
 
 const BoxesContainer = () => {
+
   return (
     <div id="boxes-container">
       <h1>Explore</h1>
