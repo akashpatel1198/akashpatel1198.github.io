@@ -11,7 +11,7 @@ const SingleTrait = ({ layer }) => {
     setDropState(prevState => !prevState)
   }
 
-  const icon = dropState[0] ? 
+  const icon = dropState ? 
   <FaArrowDown className="arrow-icon"></FaArrowDown> : 
   <FaArrowRight className="arrow-icon"></FaArrowRight>;
 
