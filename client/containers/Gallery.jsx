@@ -14,7 +14,6 @@ const Gallery = () => {
     exit={{opacity: 0, x: -500}}
     >
       <GalleryNav></GalleryNav>
-      <div id='gallery-top'>Gallery PlaceHolderText</div>
       <div id='gallery-main'>
       <Traits></Traits>
       <BoxesContainer></BoxesContainer>

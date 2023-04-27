@@ -15,11 +15,12 @@ const SingleTrait = ({ layer }) => {
   <FaArrowDown className="arrow-icon"></FaArrowDown> : 
   <FaArrowRight className="arrow-icon"></FaArrowRight>;
 
-  const traitsList = []
+  let traitsList = []
   for (let uniqueTrait of allTraitNames[layer]){
     traitsList.push(<TraitName name={uniqueTrait} layer={layer}></TraitName>)
   }
-
+  if (layer === 'Earring') traitsList = traitsList.slice(0, 1)
+  if (layer === 'Eyes') traitsList = traitsList.slice(1)
   return(
     <div className='single-trait'>
       <div className="trait-title" onClick={() => changeDrop()}>
