@@ -47,6 +47,8 @@ const BoxesMain = () => {
     loader={<p>Loading...</p>}
     >
       {boxes.filter((item, index) => {
+        // console.log('in boxes filter')
+        // console.log(item.props)
         if (index < items) return true;
         return false
       })}

@@ -35,7 +35,7 @@ const CurrentFilters = () => {
     <div id="current-main">
       <div id="current-top">
         <h3>Current Filters</h3>
-        <button onClick={clearAll}>Clear All</button>
+        <button className='press-btn' onClick={clearAll}><span className="front">Clear All</span></button>
       </div>
       <div id="current-filters">
         {filtersArr.length? filtersArr :

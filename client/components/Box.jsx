@@ -19,21 +19,6 @@ const Box = ({ data }) => {
       })
   }
 
-  useEffect(() => {
-    if (!imageRef?.current) return;
-    const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        dynamicImport()
-      }
-    },
-    {
-      rootMargin: '150px'
-    }
-    );
-
-    observer.observe(imageRef.current);
-  }, [imageRef, filters])
-
   const checkFilters = () => {
     // console.log(filters)
     const layers = Object.keys(filters)
@@ -49,6 +34,30 @@ const Box = ({ data }) => {
     }
     return true;
   }
+
+  useEffect(() => {
+    console.log(`${data.id} mounted`)
+    dynamicImport()
+
+    return(() => {
+      console.log(`${data.id} unmounted`)
+    })
+  }, [])
+
+  useEffect(() => {
+    if (!imageRef?.current) return;
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        dynamicImport()
+      }
+    },
+    {
+      rootMargin: '150px'
+    }
+    );
+
+    observer.observe(imageRef.current);
+  }, [imageRef, filters])
 
   useEffect(() => {
     if(!checkFilters()) {
