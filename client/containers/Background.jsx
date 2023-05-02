@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import OceanSrc from "../../images/Ocean.png"
 import LogoShield from "../../images/Logo_Shield.png"
 import Rope from "../../images/Rope_Crop.png"
@@ -17,6 +18,11 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 const Background = () => {
 
   return (
+    <motion.div
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
     <Parallax id="p-container" pages={7.5}>
       
       <ParallaxLayer offset={0} speed={1} sticky={{start: 0, end: 1.4}}
@@ -76,6 +82,7 @@ const Background = () => {
       </ParallaxLayer>
 
     </Parallax>
+    </motion.div>
   );
 };
 

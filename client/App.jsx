@@ -1,11 +1,13 @@
 import React from "react";
-import Background from "./containers/Background";
+import MainContainer from "./containers/MainContainer";
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
+
   return (
-    <div id="app">
-      <Background></Background>
-    </div>
+    <BrowserRouter>
+      <MainContainer></MainContainer>
+    </BrowserRouter>
   );
 };
 
