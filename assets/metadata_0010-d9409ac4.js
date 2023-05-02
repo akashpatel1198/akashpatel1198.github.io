@@ -1,0 +1,1 @@
+const t="0010",e="Bone",n="Caribbean Green",a="McSend Employee",o="Club Master",c="Breezy",r="Hard Daddy Drinking Helmet",d={id:t,Background:e,Skin:n,Outfit:a,Eyewear:o,Mouth:c,Hat:r};export{e as Background,o as Eyewear,r as Hat,c as Mouth,a as Outfit,n as Skin,d as default,t as id};

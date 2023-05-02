@@ -1,0 +1,1 @@
+const t="0067",e="White Dove",a="Lavender Ice",o="Black Crystal",n="Iguana Shirt",c="VR Headset",s="Frowny",r="Grey Wolf Bucket",u={id:t,Background:e,Skin:a,Eyes:o,Outfit:n,Eyewear:c,Mouth:s,Hat:r};export{e as Background,o as Eyes,c as Eyewear,r as Hat,s as Mouth,n as Outfit,a as Skin,u as default,t as id};

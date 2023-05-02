@@ -1,0 +1,1 @@
+const t="0093",o="Light Silver",e="Lavender Ice",a="Unamused",n="Maroon Logo Hoodie",c="Black Half Round",s="Breezy",r="Gray Trucker",d={id:t,Background:o,Skin:e,Eyes:a,Outfit:n,Eyewear:c,Mouth:s,Hat:r};export{o as Background,a as Eyes,c as Eyewear,r as Hat,s as Mouth,n as Outfit,e as Skin,d as default,t as id};

@@ -1,0 +1,1 @@
+const t="0131",a="Alabaster",e="Dark Sea Green",n="Wake and Baked",o="VR Headset",s="Unamusedly",c="Send C Brown Trucker",d={id:t,Background:a,Skin:e,Outfit:n,Eyewear:o,Mouth:s,Hat:c};export{a as Background,o as Eyewear,c as Hat,s as Mouth,n as Outfit,e as Skin,d as default,t as id};

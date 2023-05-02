@@ -1,0 +1,1 @@
+const t="0004",o="Anti-Flash White",n="Crayola Blue",e="Unamused",a="Real Construction Worker",s="None",c="Unamusedly",u="Grey Wolf Bucket",r={id:t,Background:o,Skin:n,Eyes:e,Outfit:a,Eyewear:s,Mouth:c,Hat:u};export{o as Background,e as Eyes,s as Eyewear,u as Hat,c as Mouth,a as Outfit,n as Skin,r as default,t as id};

@@ -1,0 +1,1 @@
+const t="0039",a="Light Silver",n="Marine",c="Black Drop",o="Pink Aqua Puffer",s="Club Master",e="Unamusedly",r="Backwards Black Snapback",u={id:t,Background:a,Skin:n,Eyes:c,Outfit:o,Eyewear:s,Mouth:e,Hat:r};export{a as Background,c as Eyes,s as Eyewear,r as Hat,e as Mouth,o as Outfit,n as Skin,u as default,t as id};

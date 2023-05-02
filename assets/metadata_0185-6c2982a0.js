@@ -1,0 +1,1 @@
+const t="0185",o="Pastel Gray",e="Marine",n="Unamused",a="Targhetto Employee",s="Gold Hex",c="Frowny",r="Tiger Wood's Son",d={id:t,Background:o,Skin:e,Eyes:n,Outfit:a,Eyewear:s,Mouth:c,Hat:r};export{o as Background,n as Eyes,s as Eyewear,r as Hat,c as Mouth,a as Outfit,e as Skin,d as default,t as id};

@@ -1,0 +1,1 @@
+const t="0122",e="Light Silver",a="Stone Grey",n="Unamused",o="Wake and Baked",s="None",c="Cheeky",d="Grey Camo Cap",i={id:t,Background:e,Skin:a,Eyes:n,Outfit:o,Eyewear:s,Mouth:c,Hat:d};export{e as Background,n as Eyes,s as Eyewear,d as Hat,c as Mouth,o as Outfit,a as Skin,i as default,t as id};

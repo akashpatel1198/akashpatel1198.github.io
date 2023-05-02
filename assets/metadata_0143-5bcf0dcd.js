@@ -1,0 +1,1 @@
+const t="0143",n="Anti-Flash White",e="Ocean Green",a="McSend Employee",o="Rainbow Uni",c="Cheeky",s="Dreads",i={id:t,Background:n,Skin:e,Outfit:a,Eyewear:o,Mouth:c,Hat:s};export{n as Background,o as Eyewear,s as Hat,c as Mouth,a as Outfit,e as Skin,i as default,t as id};

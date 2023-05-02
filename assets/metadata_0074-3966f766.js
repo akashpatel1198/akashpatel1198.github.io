@@ -1,0 +1,1 @@
+const t="0074",s="Azureish White",e="Prism",n="Unamused",o="Ghost Hunter",a="Rave Goggles",c="Unamusedly",u="None",i={id:t,Background:s,Skin:e,Eyes:n,Outfit:o,Eyewear:a,Mouth:c,Hat:u};export{s as Background,n as Eyes,a as Eyewear,u as Hat,c as Mouth,o as Outfit,e as Skin,i as default,t as id};

@@ -1,0 +1,1 @@
+const t="0064",n="Azureish White",o="Marine",a="Unamused",s="Ski Trip",e="Small Round Frame",i="Enthusiastically",c="Tiger Wood's Son",u={id:t,Background:n,Skin:o,Eyes:a,Outfit:s,Eyewear:e,Mouth:i,Hat:c};export{n as Background,a as Eyes,e as Eyewear,c as Hat,i as Mouth,s as Outfit,o as Skin,u as default,t as id};

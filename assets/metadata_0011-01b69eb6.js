@@ -1,0 +1,1 @@
+const t="0011",n="Cultured",o="Ocean Green",a="Ironed Button Up Unbuttoned",e="Gold Binocle",c="Enthusiastically",s="Dreads",u={id:t,Background:n,Skin:o,Outfit:a,Eyewear:e,Mouth:c,Hat:s};export{n as Background,e as Eyewear,s as Hat,c as Mouth,a as Outfit,o as Skin,u as default,t as id};

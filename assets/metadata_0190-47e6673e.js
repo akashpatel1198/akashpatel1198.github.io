@@ -1,0 +1,1 @@
+const t="0190",a="Bone",n="Lavender Ice",e="Unamused",o="Hard Daddy Can Shirt",s="Top G",c="Breezy",d="Braids",r={id:t,Background:a,Skin:n,Eyes:e,Outfit:o,Eyewear:s,Mouth:c,Hat:d};export{a as Background,e as Eyes,s as Eyewear,d as Hat,c as Mouth,o as Outfit,n as Skin,r as default,t as id};

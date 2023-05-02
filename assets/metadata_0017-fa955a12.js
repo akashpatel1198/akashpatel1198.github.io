@@ -1,0 +1,1 @@
+const t="0017",o="Light Gray",n="Caribbean Green",a="None",e="Gold Binocle",c="Frowny",r="Grey Wolf Bucket",i={id:t,Background:o,Skin:n,Outfit:a,Eyewear:e,Mouth:c,Hat:r};export{o as Background,e as Eyewear,r as Hat,c as Mouth,a as Outfit,n as Skin,i as default,t as id};

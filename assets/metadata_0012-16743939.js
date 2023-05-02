@@ -1,0 +1,1 @@
+const t="0012",a="Alabaster",o="Stone Grey",n="Black Crystal",s="None",e="Frail Frames",c=":3",r="Aqua Top",u={id:t,Background:a,Skin:o,Eyes:n,Outfit:s,Eyewear:e,Mouth:c,Hat:r};export{a as Background,n as Eyes,e as Eyewear,r as Hat,c as Mouth,s as Outfit,o as Skin,u as default,t as id};

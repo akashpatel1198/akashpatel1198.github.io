@@ -1,0 +1,1 @@
+const t="0140",a="Anti-Flash White",n="Aquamarine",o="Bowling Lane Shirt",i="Dior Mask",e=":3",s="Offwhite Trapper Hat",c={id:t,Background:a,Skin:n,Outfit:o,Eyewear:i,Mouth:e,Hat:s};export{a as Background,i as Eyewear,s as Hat,e as Mouth,o as Outfit,n as Skin,c as default,t as id};

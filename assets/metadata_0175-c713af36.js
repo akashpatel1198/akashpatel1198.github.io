@@ -1,0 +1,1 @@
+const t="0175",o="Azureish White",e="Marine",n="Unamused",s="FS64 Logo Hoodie",a="Top G",c="Unamusedly",d="Send C Purple Gold",u={id:t,Background:o,Skin:e,Eyes:n,Outfit:s,Eyewear:a,Mouth:c,Hat:d};export{o as Background,n as Eyes,a as Eyewear,d as Hat,c as Mouth,s as Outfit,e as Skin,u as default,t as id};

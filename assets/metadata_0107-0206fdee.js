@@ -1,0 +1,1 @@
+const t="0107",o="Light Silver",n="Stone Grey",e="Black Crystal",a="None",s="None",c="Cheeky",i="Boating Hat",r={id:t,Background:o,Skin:n,Eyes:e,Outfit:a,Eyewear:s,Mouth:c,Hat:i};export{o as Background,e as Eyes,s as Eyewear,i as Hat,c as Mouth,a as Outfit,n as Skin,r as default,t as id};

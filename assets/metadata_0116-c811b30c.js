@@ -1,0 +1,1 @@
+const t="0116",a="Cultured",e="Dark Sea Green",n="Ski Trip",o="Fidenzas",s="Cheesy",c="Braids",i={id:t,Background:a,Skin:e,Outfit:n,Eyewear:o,Mouth:s,Hat:c};export{a as Background,o as Eyewear,c as Hat,s as Mouth,n as Outfit,e as Skin,i as default,t as id};

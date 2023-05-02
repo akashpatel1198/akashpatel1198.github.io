@@ -1,0 +1,1 @@
+const t="0042",o="White Dove",a="Dark Sea Green",e="None",n="None",c=":3",r="Black Trucker Hat",s={id:t,Background:o,Skin:a,Outfit:e,Eyewear:n,Mouth:c,Hat:r};export{o as Background,n as Eyewear,r as Hat,c as Mouth,e as Outfit,a as Skin,s as default,t as id};

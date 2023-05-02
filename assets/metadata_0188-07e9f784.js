@@ -1,0 +1,1 @@
+const t="0188",e="Azureish White",o="Aquamarine",a="Scottish Golfer",n="Club Master",i="Breezy",s="Wide Brim Felt",c={id:t,Background:e,Skin:o,Outfit:a,Eyewear:n,Mouth:i,Hat:s};export{e as Background,n as Eyewear,s as Hat,i as Mouth,a as Outfit,o as Skin,c as default,t as id};

@@ -1,0 +1,1 @@
+const t="0138",n="Alabaster",e="Light Green",o="Ironed Button Up Unbuttoned",a="Drinking Bottles",s="Cheeky",i="Oversized Orange Beanie",r={id:t,Background:n,Skin:e,Outfit:o,Eyewear:a,Mouth:s,Hat:i};export{n as Background,a as Eyewear,i as Hat,s as Mouth,o as Outfit,e as Skin,r as default,t as id};

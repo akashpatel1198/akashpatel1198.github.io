@@ -1,0 +1,1 @@
+const t="0096",n="White Dove",e="Ultramarine Blue",o="Unamused",a="Pink Aqua Puffer",s="Nouns",u=":3",c="Send C Purple Gold",d={id:t,Background:n,Skin:e,Eyes:o,Outfit:a,Eyewear:s,Mouth:u,Hat:c};export{n as Background,o as Eyes,s as Eyewear,c as Hat,u as Mouth,a as Outfit,e as Skin,d as default,t as id};

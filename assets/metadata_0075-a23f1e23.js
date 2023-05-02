@@ -1,0 +1,1 @@
+const t="0075",e="Pastel Gray",a="Crayola Blue",o="Black Drop",c="Checkered Puffer",n="Gold Hex",s="Cheeky",r="Reverse Snapback",u={id:t,Background:e,Skin:a,Eyes:o,Outfit:c,Eyewear:n,Mouth:s,Hat:r};export{e as Background,o as Eyes,n as Eyewear,r as Hat,s as Mouth,c as Outfit,a as Skin,u as default,t as id};

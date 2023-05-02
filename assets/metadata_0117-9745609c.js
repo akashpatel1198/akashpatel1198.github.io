@@ -1,0 +1,1 @@
+const t="0117",a="Alabaster",e="Ocean Green",n="Elemental Shirt",c="3D Glasses",s="Cheeky",o="Backwards Black Snapback",r={id:t,Background:a,Skin:e,Outfit:n,Eyewear:c,Mouth:s,Hat:o};export{a as Background,c as Eyewear,o as Hat,s as Mouth,n as Outfit,e as Skin,r as default,t as id};

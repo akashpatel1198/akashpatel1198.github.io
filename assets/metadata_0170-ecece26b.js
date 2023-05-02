@@ -1,0 +1,1 @@
+const t="0170",e="Cultured",c="Black Ice",a="Black Crystal",n="Send Jersey",o="None",s="Cheesy",u="Black Bucket",d={id:t,Background:e,Skin:c,Eyes:a,Outfit:n,Eyewear:o,Mouth:s,Hat:u};export{e as Background,a as Eyes,o as Eyewear,u as Hat,s as Mouth,n as Outfit,c as Skin,d as default,t as id};

@@ -1,0 +1,1 @@
+const t="0193",a="Alabaster",n="Lavender Ice",e="Black Crystal",o="Green Flannel",s="Frail Frames",c="Frowny",r="Send C Butterfly Snapback",d={id:t,Background:a,Skin:n,Eyes:e,Outfit:o,Eyewear:s,Mouth:c,Hat:r};export{a as Background,e as Eyes,s as Eyewear,r as Hat,c as Mouth,o as Outfit,n as Skin,d as default,t as id};

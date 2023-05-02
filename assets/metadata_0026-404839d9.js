@@ -1,0 +1,1 @@
+const t="0026",o="Light Silver",a="Crayola Blue",e="Unamused",n="Blue Logo Tank Top",s="Gold Hex",c="Enthusiastically",u="Grey Wolf Bucket",i={id:t,Background:o,Skin:a,Eyes:e,Outfit:n,Eyewear:s,Mouth:c,Hat:u};export{o as Background,e as Eyes,s as Eyewear,u as Hat,c as Mouth,n as Outfit,a as Skin,i as default,t as id};

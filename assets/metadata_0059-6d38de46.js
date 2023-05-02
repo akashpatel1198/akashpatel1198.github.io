@@ -1,0 +1,1 @@
+const t="0059",n="Light Gray",o="Ocean Green",e="Bigfoot Hunter",a="Fidenzas",c="Cheeky",s="None",i={id:t,Background:n,Skin:o,Outfit:e,Eyewear:a,Mouth:c,Hat:s};export{n as Background,a as Eyewear,s as Hat,c as Mouth,e as Outfit,o as Skin,i as default,t as id};

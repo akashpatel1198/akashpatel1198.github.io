@@ -1,0 +1,1 @@
+const t="0076",a="Alabaster",n="Aquamarine",o="None",e="Wayfarer",s="Unamusedly",c="None",r={id:t,Background:a,Skin:n,Outfit:o,Eyewear:e,Mouth:s,Hat:c};export{a as Background,e as Eyewear,c as Hat,s as Mouth,o as Outfit,n as Skin,r as default,t as id};

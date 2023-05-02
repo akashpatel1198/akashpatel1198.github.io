@@ -1,0 +1,1 @@
+const t="0014",e="Alabaster",n="Lavender Ice",o="Unamused",s="Steve Jobs Rebellious Son",a="Hokusai",c="Unamusedly",u="Send C Brown Trucker",d={id:t,Background:e,Skin:n,Eyes:o,Outfit:s,Eyewear:a,Mouth:c,Hat:u};export{e as Background,o as Eyes,a as Eyewear,u as Hat,c as Mouth,s as Outfit,n as Skin,d as default,t as id};

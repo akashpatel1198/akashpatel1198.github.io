@@ -1,0 +1,1 @@
+const t="0187",e="Light Silver",n="Light Green",o="Sendmart Employee",a="None",c="Cheesy",s="Send C Purple Gold",d={id:t,Background:e,Skin:n,Outfit:o,Eyewear:a,Mouth:c,Hat:s};export{e as Background,a as Eyewear,s as Hat,c as Mouth,o as Outfit,n as Skin,d as default,t as id};

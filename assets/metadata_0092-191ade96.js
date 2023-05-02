@@ -1,0 +1,1 @@
+const o="0092",t="Azureish White",e="Picton Blue",n="Rainbow Drops",s="Block Logo Hoodie",c="Nerd",a=":3",i="Send C Purple Gold",d={id:o,Background:t,Skin:e,Eyes:n,Outfit:s,Eyewear:c,Mouth:a,Hat:i};export{t as Background,n as Eyes,c as Eyewear,i as Hat,a as Mouth,s as Outfit,e as Skin,d as default,o as id};

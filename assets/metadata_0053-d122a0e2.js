@@ -1,0 +1,1 @@
+const t="0053",e="Pastel Gray",a="Ultramarine Blue",n="Unamused",o="None",s="VR Headset",c="Breezy",d="Hard Daddy Drinking Helmet",r={id:t,Background:e,Skin:a,Eyes:n,Outfit:o,Eyewear:s,Mouth:c,Hat:d};export{e as Background,n as Eyes,s as Eyewear,d as Hat,c as Mouth,o as Outfit,a as Skin,r as default,t as id};

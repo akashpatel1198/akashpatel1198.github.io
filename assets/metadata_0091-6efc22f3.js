@@ -1,0 +1,1 @@
+const t="0091",e="Cultured",n="Ultramarine Blue",s="Unamused",o="Senders Jersey",a="Ski Goggles",r="Cheesy",c="Send C Brown Trucker",u={id:t,Background:e,Skin:n,Eyes:s,Outfit:o,Eyewear:a,Mouth:r,Hat:c};export{e as Background,s as Eyes,a as Eyewear,c as Hat,r as Mouth,o as Outfit,n as Skin,u as default,t as id};

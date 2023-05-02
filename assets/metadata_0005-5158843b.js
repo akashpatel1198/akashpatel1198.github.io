@@ -1,0 +1,1 @@
+const o="0005",t="Anti-Flash White",n="Stone Grey",e="Unamused",a="Maroon Logo Hoodie",s="None",c="Frowny",d="Down Perm Fade",i={id:o,Background:t,Skin:n,Eyes:e,Outfit:a,Eyewear:s,Mouth:c,Hat:d};export{t as Background,e as Eyes,s as Eyewear,d as Hat,c as Mouth,a as Outfit,n as Skin,i as default,o as id};

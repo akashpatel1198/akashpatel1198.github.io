@@ -1,0 +1,1 @@
+const t="0031",e="Anti-Flash White",a="Dark Sea Green",n="Real Mink",o="None",c="Cheeky",s="Reverse Snapback",i={id:t,Background:e,Skin:a,Outfit:n,Eyewear:o,Mouth:c,Hat:s};export{e as Background,o as Eyewear,s as Hat,c as Mouth,n as Outfit,a as Skin,i as default,t as id};

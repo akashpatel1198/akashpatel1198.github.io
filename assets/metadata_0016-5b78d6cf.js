@@ -1,0 +1,1 @@
+const t="0016",o="Pastel Gray",a="Lavender Ice",e="Black Crystal",n="White Collar Coat",s="Sutro",c="Cheeky",r="Tiger Wood's Son",d={id:t,Background:o,Skin:a,Eyes:e,Outfit:n,Eyewear:s,Mouth:c,Hat:r};export{o as Background,e as Eyes,s as Eyewear,r as Hat,c as Mouth,n as Outfit,a as Skin,d as default,t as id};

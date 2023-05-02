@@ -1,0 +1,1 @@
+const t="0087",a="Pastel Gray",s="Prism",n="Unamused",o="None",c="Punks",e="Cheesy",u="Backwards Black Snapback",d={id:t,Background:a,Skin:s,Eyes:n,Outfit:o,Eyewear:c,Mouth:e,Hat:u};export{a as Background,n as Eyes,c as Eyewear,u as Hat,e as Mouth,o as Outfit,s as Skin,d as default,t as id};

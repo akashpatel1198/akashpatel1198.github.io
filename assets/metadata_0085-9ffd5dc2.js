@@ -1,0 +1,1 @@
+const t="0085",e="Bone",a="Marine",n="Unamused",o="Hawaiian Shirt",s="Cartier Rimless Ice Blue",i=":3",c="Wide Brim Felt",r={id:t,Background:e,Skin:a,Eyes:n,Outfit:o,Eyewear:s,Mouth:i,Hat:c};export{e as Background,n as Eyes,s as Eyewear,c as Hat,i as Mouth,o as Outfit,a as Skin,r as default,t as id};

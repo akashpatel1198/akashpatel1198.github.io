@@ -1,0 +1,1 @@
+const t="0133",o="Light Gray",e="Black Ice",s="Unamused",n="Bullet Proof Vest",a="Dior Visor",c="Cheeky",i={id:t,Background:o,Skin:e,Eyes:s,Outfit:n,Eyewear:a,Mouth:c};export{o as Background,s as Eyes,a as Eyewear,c as Mouth,n as Outfit,e as Skin,i as default,t as id};

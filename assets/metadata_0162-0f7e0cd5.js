@@ -1,0 +1,1 @@
+const t="0162",e="Light Silver",a="Dark Sea Green",n="Purple Thunder Jersey",o="Sutro",r="Enthusiastically",s="Reverse Snapback",c={id:t,Background:e,Skin:a,Outfit:n,Eyewear:o,Mouth:r,Hat:s};export{e as Background,o as Eyewear,s as Hat,r as Mouth,n as Outfit,a as Skin,c as default,t as id};

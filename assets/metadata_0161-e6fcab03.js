@@ -1,0 +1,1 @@
+const t="0161",e="White Dove",o="Ultramarine Blue",a="Black Drop",n="Bullet Proof Vest",s="Wayfarer",c="Cheesy",r="Chug Cut",u={id:t,Background:e,Skin:o,Eyes:a,Outfit:n,Eyewear:s,Mouth:c,Hat:r};export{e as Background,a as Eyes,s as Eyewear,r as Hat,c as Mouth,n as Outfit,o as Skin,u as default,t as id};

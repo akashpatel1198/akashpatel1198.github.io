@@ -1,0 +1,1 @@
+const t="0080",n="Bone",a="Black Ice",e="Unamused",o="Hawaiian Shirt",c="None",s="Cheeky",i="Down Perm Fade",d={id:t,Background:n,Skin:a,Eyes:e,Outfit:o,Eyewear:c,Mouth:s,Hat:i};export{n as Background,e as Eyes,c as Eyewear,i as Hat,s as Mouth,o as Outfit,a as Skin,d as default,t as id};

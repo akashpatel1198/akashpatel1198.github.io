@@ -1,0 +1,1 @@
+const o="0007",t="Bone",n="Picton Blue",a="Rainbow Drops",c="Block Logo Hoodie",e="Small Round Frame",s="Frowny",i="Drip Crown",r={id:o,Background:t,Skin:n,Eyes:a,Outfit:c,Eyewear:e,Mouth:s,Hat:i};export{t as Background,a as Eyes,e as Eyewear,i as Hat,s as Mouth,c as Outfit,n as Skin,r as default,o as id};

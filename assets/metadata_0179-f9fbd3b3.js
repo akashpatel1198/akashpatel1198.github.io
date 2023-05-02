@@ -1,0 +1,1 @@
+const t="0179",e="Azureish White",n="Stone Grey",o="Black Crystal",s="Ironed Button Up Unbuttoned",a="3D Glasses",c="Breezy",r="Send C Purple Gold",u={id:t,Background:e,Skin:n,Eyes:o,Outfit:s,Eyewear:a,Mouth:c,Hat:r};export{e as Background,o as Eyes,a as Eyewear,r as Hat,c as Mouth,s as Outfit,n as Skin,u as default,t as id};

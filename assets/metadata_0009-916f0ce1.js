@@ -1,0 +1,1 @@
+const t="0009",o="Light Gray",a="Ultramarine Blue",n="Unamused",e="FS64 Logo Hoodie",s="Small Round Frame",c=":3",d="Dreads",r={id:t,Background:o,Skin:a,Eyes:n,Outfit:e,Eyewear:s,Mouth:c,Hat:d};export{o as Background,n as Eyes,s as Eyewear,d as Hat,c as Mouth,e as Outfit,a as Skin,r as default,t as id};

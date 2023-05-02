@@ -1,0 +1,1 @@
+const t="0089",e="Light Gray",n="Prism",o="Unamused",a="McSend Employee",s="Frail Frames",c="Breezy",r="None",i={id:t,Background:e,Skin:n,Eyes:o,Outfit:a,Eyewear:s,Mouth:c,Hat:r};export{e as Background,o as Eyes,s as Eyewear,r as Hat,c as Mouth,a as Outfit,n as Skin,i as default,t as id};

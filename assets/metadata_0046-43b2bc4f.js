@@ -1,0 +1,1 @@
+const t="0046",a="Alabaster",e="Lavender Blue",n="Unamused",o="None",s="Chakras",c="Frowny",r="Reverse Snapback",u={id:t,Background:a,Skin:e,Eyes:n,Outfit:o,Eyewear:s,Mouth:c,Hat:r};export{a as Background,n as Eyes,s as Eyewear,r as Hat,c as Mouth,o as Outfit,e as Skin,u as default,t as id};

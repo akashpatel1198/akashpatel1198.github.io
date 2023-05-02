@@ -1,0 +1,1 @@
+const t="0157",o="Pastel Gray",a="Caribbean Green",n="Maroon Logo Hoodie",e="Aviator",r=":3",c="Gray Trucker",s={id:t,Background:o,Skin:a,Outfit:n,Eyewear:e,Mouth:r,Hat:c};export{o as Background,e as Eyewear,c as Hat,r as Mouth,n as Outfit,a as Skin,s as default,t as id};

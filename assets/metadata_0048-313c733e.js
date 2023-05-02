@@ -1,0 +1,1 @@
+const t="0048",e="Lavender",n="Picton Blue",o="Black Drop",a="Lil Rapper",c="None",s="Cheesy",r="Send C Brown Trucker",u={id:t,Background:e,Skin:n,Eyes:o,Outfit:a,Eyewear:c,Mouth:s,Hat:r};export{e as Background,o as Eyes,c as Eyewear,r as Hat,s as Mouth,a as Outfit,n as Skin,u as default,t as id};

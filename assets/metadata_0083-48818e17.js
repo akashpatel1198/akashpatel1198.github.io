@@ -1,0 +1,1 @@
+const t="0083",n="Cultured",o="Lavender Blue",e="Unamused",a="Ironed Button Up Unbuttoned",s="Club Master",u="Frowny",d="Golden Gym Bro",c={id:t,Background:n,Skin:o,Eyes:e,Outfit:a,Eyewear:s,Mouth:u,Hat:d};export{n as Background,e as Eyes,s as Eyewear,d as Hat,u as Mouth,a as Outfit,o as Skin,c as default,t as id};

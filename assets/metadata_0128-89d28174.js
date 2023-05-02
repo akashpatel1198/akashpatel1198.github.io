@@ -1,0 +1,1 @@
+const t="0128",e="Light Silver",n="Ocean Green",a="Real Real Estate Agent",o="None",c=":3",r="Send C Brown Trucker",s={id:t,Background:e,Skin:n,Outfit:a,Eyewear:o,Mouth:c,Hat:r};export{e as Background,o as Eyewear,r as Hat,c as Mouth,a as Outfit,n as Skin,s as default,t as id};

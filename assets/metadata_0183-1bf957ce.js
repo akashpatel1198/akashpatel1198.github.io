@@ -1,0 +1,1 @@
+const t="0183",e="Azureish White",s="Ultramarine Blue",a="Black Drop",n="Purple Thunder Jersey",o="Cartier Rimless Ice Blue",r=":3",c="Braids",i={id:t,Background:e,Skin:s,Eyes:a,Outfit:n,Eyewear:o,Mouth:r,Hat:c};export{e as Background,a as Eyes,o as Eyewear,c as Hat,r as Mouth,n as Outfit,s as Skin,i as default,t as id};

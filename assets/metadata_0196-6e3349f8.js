@@ -1,0 +1,1 @@
+const t="0196",n="Light Silver",e="Lavender Ice",o="Unamused",a="Ironed Button Up Unbuttoned",s="Thug Lyfe",c=":3",u="None",d={id:t,Background:n,Skin:e,Eyes:o,Outfit:a,Eyewear:s,Mouth:c,Hat:u};export{n as Background,o as Eyes,s as Eyewear,u as Hat,c as Mouth,a as Outfit,e as Skin,d as default,t as id};

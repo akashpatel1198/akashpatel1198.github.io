@@ -1,0 +1,1 @@
+const t="0154",o="Light Gray",e="Stone Grey",n="Unamused",s="Steve Jobs Rebellious Son",a="Nerd",c=":3",r="Curly Brown",u={id:t,Background:o,Skin:e,Eyes:n,Outfit:s,Eyewear:a,Mouth:c,Hat:r};export{o as Background,n as Eyes,a as Eyewear,r as Hat,c as Mouth,s as Outfit,e as Skin,u as default,t as id};

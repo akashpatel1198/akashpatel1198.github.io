@@ -1,0 +1,1 @@
+const t="0151",a="Pastel Gray",n="Aquamarine",o="None",e="Encoder",c="Breezy",s="Black Bucket",r={id:t,Background:a,Skin:n,Outfit:o,Eyewear:e,Mouth:c,Hat:s};export{a as Background,e as Eyewear,s as Hat,c as Mouth,o as Outfit,n as Skin,r as default,t as id};

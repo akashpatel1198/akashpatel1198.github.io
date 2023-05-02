@@ -1,0 +1,1 @@
+const t="0184",o="Azureish White",e="Crayola Blue",n="Unamused",s="Blue Logo Tank Top",a="Thug Lyfe",u="Cheesy",c="Tiger Wood's Son",i={id:t,Background:o,Skin:e,Eyes:n,Outfit:s,Eyewear:a,Mouth:u,Hat:c};export{o as Background,n as Eyes,a as Eyewear,c as Hat,u as Mouth,s as Outfit,e as Skin,i as default,t as id};

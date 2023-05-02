@@ -1,0 +1,1 @@
+const t="0061",e="White Dove",n="Ocean Green",o="Real Fortune Teller",a="Gold Hex",c=":3",i="White Beanie",s={id:t,Background:e,Skin:n,Outfit:o,Eyewear:a,Mouth:c,Hat:i};export{e as Background,a as Eyewear,i as Hat,c as Mouth,o as Outfit,n as Skin,s as default,t as id};
